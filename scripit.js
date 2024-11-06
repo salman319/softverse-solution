@@ -1,5 +1,5 @@
 //menu section start
-document.querySelector(".menu svg").addEventListener('click', () => {
+document.querySelector(".menu img").addEventListener('click', () => {
     if (document.querySelector(".sidebar-section").style.height === "0px") {
         document.querySelector(".sidebar-section").style.height = "200px"
     } else {
@@ -39,7 +39,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     var owlCarousel2 = $(".owl-carousel-2").owlCarousel({
-        loop: true,
+        loop: false,
         nav: false,
         responsive: {
             0: {
