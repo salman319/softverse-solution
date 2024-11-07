@@ -12,7 +12,7 @@ document.querySelector(".menu img").addEventListener('click', () => {
 $(document).ready(function () {
 
     var owl = $('.owl-carousel-1').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 10,
         nav: false,
         responsive: {
@@ -23,7 +23,7 @@ $(document).ready(function () {
                 items: 1
             },
             1000: {
-                items: 3
+                items: 2
             }
         }
     });
